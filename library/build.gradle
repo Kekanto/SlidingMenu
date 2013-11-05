@@ -8,6 +8,10 @@ dependencies {
 android {
     compileSdkVersion 18
     buildToolsVersion "19.0.0"
+    
+    defaultConfig {
+        minSdkVersion 8
+    }
 
     sourceSets {
         main {
